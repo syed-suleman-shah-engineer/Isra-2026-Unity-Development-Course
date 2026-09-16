@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TriggerEvent : MonoBehaviour
 {
     public LayerMask triggerLayerMask; // Layer mask to filter which objects can trigger the event
-    public UnityEngine.Events.UnityEvent<GameObject> onTriggerEnter; // Event to invoke when an object enters the trigger
+    public UnityEvent<GameObject> onTriggerEnter; // Event to invoke when an object enters the trigger
 
     private void OnTriggerEnter(Collider other)
     {
