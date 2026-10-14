@@ -15,7 +15,7 @@ MonoBehaviour:
   walkSpeed: 2
   runSpeed: 5
   crouchSpeed: 1
-  jumpForce: 3.5
+  jumpForce: 7
   rotationSmoothness: 0.15
   groundCheckDistance: 0.2
   groundLayers:
@@ -28,5 +28,5 @@ MonoBehaviour:
   lookSensitivity: 1
   minPitch: -30
   maxPitch: 70
-  soundEffects: {fileID: 11400000, guid: d50b8cc9e06fc774eb0bf35cc7987143, type: 2}
+  soundEffects: {fileID: 11400000, guid: 3968eee2bcab88c4b8a8a70c003d6064, type: 2}
   soundVolume: 1
